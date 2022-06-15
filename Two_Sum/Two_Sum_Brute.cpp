@@ -10,3 +10,6 @@ public:
 };
 // TC : O(n^2) 
 // SC: Since we did not use or create any extra array it is O(1)
+
+
+// Further Hashing aproach is more optimized
