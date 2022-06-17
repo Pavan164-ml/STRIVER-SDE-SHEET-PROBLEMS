@@ -22,14 +22,14 @@ void recurpermute(int index, vector<int> &nums , vector<vector<int>> &ans)
 
 int main()
 {
-    // Declasring the input vector
+    // Declaring the input vector
     vector<int> nums = {1,2,3};
     vector<vector<int> > ans;
 
     // Calling the recursive function
     recurpermute(0,nums,ans);
 
-    // Printing the permutations
+    // Printing all the permutations
     for(int i = 0 ; i < ans.size() ; i++)
     {
         for(int j = 0 ; j < ans[i].size() ; j++)
@@ -38,6 +38,8 @@ int main()
         }
         cout<<endl;
     }
+    
+    /
 }   
 
 
