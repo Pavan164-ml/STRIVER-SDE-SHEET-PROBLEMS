@@ -38,4 +38,10 @@ int main()
         }
         cout<<endl;
     }
-}
+}   
+
+
+// N represents the size of input array
+// TC : O(N!xN)                            # since searching input arrays from all possible permutations will take N!.
+// SC : O(1)
+
