@@ -26,3 +26,7 @@ int peakElement(int arr[], int n)
    }
    return peak;
 }
+
+
+// TC : O(N) - Lets bring down this to O(log(n))
+// SC : O(1)
