@@ -18,7 +18,7 @@ int peakElement(int arr[], int n)
            return i;
        }
 //      when the loop is in the middle of the array we check for the adjacent elements
-       else if(arr[i]>arr[i+1] && arr[i]>arr[i-1])
+       else if(arr[i]>=arr[i+1] && arr[i]>=arr[i-1])
        {
             return i;    
        }
