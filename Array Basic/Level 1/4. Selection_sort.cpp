@@ -15,3 +15,7 @@ vector<int> sortArr(vector<int>arr, int n){
     }
         return arr;
     }
+
+
+// TC : O(N^2)
+// SC : O(1)
